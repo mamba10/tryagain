@@ -1,26 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>意腾迎双十一抽奖</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/layer.css">
 </head>
 
 <body>
-    <section class="main">
-        <img class="main-bg" src="images/index_bg.png">
-        <div class="main-di">
-            <input class="md-text" type="text" name="" placeholder="输入密令">
+    <div class="main">
+        <div class="logo"></div>
+        <div class="turn1"></div>
+        <div class="cloud1"></div>
+        <div class="cloud2"></div>
+        <div class="cloud3"></div>
+        <a class="spe-a" href="javascript:;">活动规则</a>
+        <div class="circle">
+            <div class="circle1">
+                <img src="images/content.png">
+            </div>
+            <img src="images/circle.png" class="circle2">
+            <img src="images/lucky.png" class="circle3">
         </div>
-        <div class="main-db">
-            <button><img src="images/index_btn.png"></button>
+        <div class="bc"></div>
+        <div class="share">
+            <img src="images/help-g.png" width="100%" height="100%">
         </div>
-    </section>
+    </div>
 </body>
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.rotate.min.js"></script>
+<script type="text/javascript" src="js/layer.js"></script>
+<script type="text/javascript" src="js/lucky.js"></script>
+<script>
+    $(function(){
+        $('#layui-m-layer0').hide();
+    })
+</script>
 
 </html>
