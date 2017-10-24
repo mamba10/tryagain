@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.main-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main-di {
+    width: 66%;
+    height: 6.5%;
+    position: absolute;
+    left: 17%;
+    top: 68%;
+}
+
+.md-text {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-weight: bold;
+    color:#013b74;
+}
+
+.md-text::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #1d61a4;
+}
+
+.md-text:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #1d61a4;
+}
+
+.md-text::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #1d61a4;
+}
+
+.md-text:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #1d61a4;
+}
+
+.main-db {
+    width: 30%;
+    height: 6%;
+    position: absolute;
+    left: 35%;
+    top: 85%;
+}
+
+.main-db button {
+    width: 100%;
+    border: 0;
+    background: transparent;
+}
+
+.main-db img {
+    width: 100%;
+}
+
+@media screen and (min-width:720px) {
+    .md-text {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:720px) and (min-width:450px) {
+    .md-text {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:450px) and (min-width:320px) {
+    .md-text {
+        font-size: 1.4rem;
+    }
+}
